@@ -48,7 +48,7 @@ if ($_POST) {
         $user->status = 1;
 
         // create the user
-        if ($user->create()) {  
+        if ($user->create()) {
 
             echo "<div class='alert alert-info'>";
             echo "Successfully registered. <a href='{$home_url}login'>Please login</a>.";
